@@ -1,0 +1,32 @@
+{
+  "descriptionHash": "68296A039098A2E836D4AA13B9633B844958A4785BC6FC9526AB77449118AF09E80926F8D7699DFA1F013B78D806158C0108C4F4B47193C79ADB1C89A5F97BDA",
+  "descriptionLocation": "/mnt/vss/_work/1/s/msgraph-metadata/clean_v10_openapi/openapi.yaml",
+  "lockFileVersion": "1.0.0",
+  "kiotaVersion": "1.2.1",
+  "clientClassName": "GraphBaseServiceClient",
+  "clientNamespaceName": "github.com/microsoftgraph/msgraph-sdk-go/",
+  "language": "Go",
+  "usesBackingStore": true,
+  "includeAdditionalData": true,
+  "serializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Text.TextSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Form.FormSerializationWriterFactory"
+  ],
+  "deserializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Text.TextParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Form.FormParseNodeFactory"
+  ],
+  "structuredMimeTypes": [
+    "application/json",
+    "text/plain",
+    "application/x-www-form-urlencoded"
+  ],
+  "includePatterns": [],
+  "excludePatterns": [
+    "/me",
+    "/me/**"
+  ],
+  "disabledValidationRules": []
+}
