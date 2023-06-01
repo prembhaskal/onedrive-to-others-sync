@@ -1,4 +1,4 @@
-module graphtutorial
+module github.com/prembhaskal/onedrive-to-others-sync
 
 go 1.19
 

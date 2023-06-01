@@ -9,7 +9,7 @@ import (
 	"log"
 	"time"
 
-	"graphtutorial/graphhelper"
+	"github.com/prembhaskal/onedrive-to-others-sync/msgraph/graphhelper"
 
 	"github.com/joho/godotenv"
 
