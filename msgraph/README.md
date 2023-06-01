@@ -8,10 +8,18 @@
 
   - sample go SDK code here - https://learn.microsoft.com/en-us/graph/api/driveitem-list-children?view=graph-rest-1.0&tabs=go 
 
-## NOTES
+
+
+# NOTES
  - sdk-go support for upload session is not complete, it lack method to provide filename. this is separately added in this repo.
 
-## TODOS
+# steps to run
+
+```bash
+  $ go run msgraph/graphtutorial.go
+```
+
+# TODOS
 - remove non drive related code
 - reformat code to have simpler APIs
 - use other auth mechanism eg asking token from user or using client certificates etc.
